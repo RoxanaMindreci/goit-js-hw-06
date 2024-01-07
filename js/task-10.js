@@ -66,7 +66,7 @@ function createBoxes(amount) {
 }
 
  function destroyBoxes() {
-  boxes.container.innerHtml = '';
+  boxesContainer.innerHTML = '';
  }
   
 });
